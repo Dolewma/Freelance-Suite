@@ -1,0 +1,20 @@
+## Zielbild (in 3 Sätzen)
+- <Kurz erklären, was die App leistet und was Lernende am Ende „in der Hand“ haben.>
+
+## User Journeys
+**Public:** Landing → Services → freie Slots → Buchung → Bestätigungs-E-Mail (+ ICS)  
+**Backoffice:** Contacts/Leads → Project → Quote → Invoice (PDF) → Dashboard (Monatsumsatz)
+
+## Screens / Wireframes
+- Landing, Services, Booking
+- Dashboard, Contact-Liste, Quote/Invoice-Details
+- <Stichpunktliste, ggf. Screenshot/Skizze verlinken>
+
+## Datenmodell (grobe Skizze)
+- **Contact** ↔ **Lead** ↔ **Project**
+- **Quote** → **Invoice** (+ **LineItem**)
+- **Service**, **TimeSlot** → **Booking**
+- Relationstypen notieren (1-n, n-n), Felder folgen in `models.md`
+
+## Nicht-Ziele (Einsteigerkurs)
+- Keine Payments/Stripe, kein Celery, kein Docker, kein komplexes RBAC
