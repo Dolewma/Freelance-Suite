@@ -1,0 +1,14 @@
+> Konvention: `app:resource_action` – kurze, sprechende Namen.
+
+| Bereich   | URL-Name                | Pfad (Platzhalter)             | Zweck                     |
+|----------|--------------------------|---------------------------------|---------------------------|
+| Public   | booking:services_list    | /services/                      | Öffentliche Services      |
+| Public   | booking:timeslots_list   | /services/<id>/slots/           | Freie Slots anzeigen      |
+| Public   | booking:create           | /booking/new/                   | Buchung anlegen           |
+| Backoffice | crm:contacts_list      | /crm/contacts/                  | Kontakte verwalten        |
+| Backoffice | crm:leads_list         | /crm/leads/                     | Leads verwalten           |
+| Backoffice | billing:quotes_list    | /billing/quotes/                | Angebote                  |
+| Backoffice | billing:invoices_list  | /billing/invoices/              | Rechnungen                |
+| Backoffice | dashboard:index        | /dashboard/                     | KPIs/Monatsumsatz         |
+
+> Ergänze je Modul neue Einträge; lange Beschreibungen bitte im Fließtext, nicht in Tabellen.
