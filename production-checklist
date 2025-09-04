@@ -1,0 +1,15 @@
+## Vorbereitungen
+- Secrets in `.env` (kein Commit), DEBUG off, Allowed Hosts gesetzt
+- Static/Media-Pfade geprüft
+- Datenbankzugriff (Prod-DB) konfiguriert
+
+## Deploy
+- Abhängigkeiten installieren
+- `collectstatic` ausführen
+- Migrations laufen
+- Start/Health prüfen (Logs ansehen)
+
+## Nach dem Deploy
+- Manuelle Smoke-Tests (Landing, Login, CRUD, PDF, Booking E-Mail/ICS)
+- Monitoring/Logs verlinkt
+- Rollback-Plan dokumentiert (wie, wer, wann)
