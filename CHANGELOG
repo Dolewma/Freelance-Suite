@@ -1,0 +1,17 @@
+## [Unreleased]
+- Platzhalter für nächste Änderungen
+
+## [v01-setup] – YYYY-MM-DD
+- Grundstruktur angelegt (Ordner, Docs, Regeln)
+- DoD/Tag-Plan dokumentiert
+
+## [v02-urls] – YYYY-MM-DD
+- Routing-Gerüst je App, Namespaces, Fehlerseiten
+
+## [v03-templates] – YYYY-MM-DD
+- Base-Template, Partials, Mini-UIs
+
+<!-- … weitere Versionseinträge je Modul … -->
+
+## [v19-drf-readonly] – YYYY-MM-DD
+- Read-Only-API + Swagger-Schema
