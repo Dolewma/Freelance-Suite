@@ -1,0 +1,13 @@
+## Hotspots (geplant)
+- Contact → Lead → Project Ketten (Listen/Detail)
+- Quote/Invoice mit LineItems (Aggregationen)
+- Booking-Übersichten (Slots + Services)
+
+## Maßnahmen
+- `select_related` auf FK-Pfaden (Detailseiten)
+- `prefetch_related` für n-n/Listen inkl. LineItems
+- Einfache per-view Caches an stark frequentierten Listen
+
+## Messung
+- Debug-Toolbar aktiv
+- Ziel-Query-Counts pro View notieren (Soll/Ist)
