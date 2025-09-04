@@ -1,0 +1,27 @@
+# Beitrag & Workflow
+
+## Branches
+- `main` – stabiler Kursstand (nach jedem Modul)
+- `module-XX-*` – Arbeitsbranch je Kapitel
+
+## Tags (pro Modul)
+- `v01-setup`, `v02-urls`, `v03-templates`, …, `v18-deploy`, `v19-drf-readonly`
+- Optional: `vXX-<kapitel>-starter` / `vXX-<kapitel>-solution`
+
+## Commits
+- Präfix: `mXX-<kurzbeschreibung>`
+- Beispiel: `m09-forms: add ModelForms and PRG pattern`
+
+## Namensregeln
+- **Modelle:** Singular, PascalCase (`Contact`)
+- **Tabellen (DB):** plural_snake_case (`crm_contacts`)
+- **Felder:** snake_case (`first_name`)
+- **URLs:** `app:resource_action` (`crm:contacts_list`)
+- **Templates:** `templates/<app>/<resource>_<action>.html`
+
+## Definition of Done (DoD)
+1. Lokal funktionsfähig (Feature/Sicht testbar)
+2. Smoke-Check grün (Seite lädt, Formular/Listen funktionieren)
+3. Doku aktualisiert (`docs/...`)
+4. `CHANGELOG.md` ergänzt
+5. Git-Tag gesetzt (z. B. `v03-templates`)
