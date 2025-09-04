@@ -1,0 +1,26 @@
+# FAQ – Häufige Probleme & schnelle Lösungen
+
+## Installation/Setup
+- **Problem:** Python/venv wird nicht gefunden.  
+  **Kurzlösung:** <Hinweis auf PATH/Version, Link auf README-Abschnitt>
+
+## Pfade/Imports
+- **Problem:** Template wird nicht gefunden.  
+  **Kurzlösung:** `TEMPLATES.DIRS`/App-Pfad prüfen; Dateiname/Ordnerstruktur checken.
+
+## Migrations/DB
+- **Problem:** Migration schlägt fehl / Konflikte.  
+  **Kurzlösung:** <Reihenfolge prüfen, Fake-Migrations vermeiden, saubere Neu-Migration anstoßen>
+
+## CSRF/Forms
+- **Problem:** CSRF-Fehler beim POST.  
+  **Kurzlösung:** CSRF-Tag im Formular, Middleware aktiv, Domain/Hosts prüfen.
+
+## Static/Media
+- **Problem:** CSS/Images werden nicht geladen.  
+  **Kurzlösung:** Static-Einstellungen prüfen; im Prod `collectstatic` ausgeführt?
+
+## Windows/macOS/Linux
+- **Hinweis:** Pfad-/Shell-Unterschiede kurz erklären; Alternativen aufzeigen.
+
+> Für komplexere Fälle verweise auf **Issues/Discussions** oder die **Starter/Solution**-Releases je Modul.
