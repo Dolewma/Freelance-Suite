@@ -1,0 +1,15 @@
+> Konvention: Modelle **Singular** (PascalCase); Tabellen **Plural** (snake_case).
+
+| App     | Model       | Zweck (kurz)                | Wichtige Relationen     |
+|---------|-------------|-----------------------------|-------------------------|
+| crm     | Contact     | Kundendaten                 | —                       |
+| crm     | Lead        | Vertriebsstatus             | FK → Contact            |
+| crm     | Project     | Auftrag/Vorhaben            | FK → Contact / Lead     |
+| billing | Quote       | Angebot                      | FK → Project            |
+| billing | LineItem    | Angebots-/Rechnungsposten   | FK → Quote/Invoice      |
+| billing | Invoice     | Rechnung                     | FK → Project            |
+| booking | Service     | Buchbare Leistung           | —                       |
+| booking | TimeSlot    | Zeitfenster                 | FK → Service            |
+| booking | Booking     | Buchung                     | FK → Contact/Service/TimeSlot |
+
+**Felder** und **Choices/Enums** werden in Modul „Data & Models“ detailliert ergänzt.
