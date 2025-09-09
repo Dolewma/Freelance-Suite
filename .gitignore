@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django
+*.log
+db.sqlite3
+media/
+staticfiles/
+static_root/
+local_settings.py
+
+# Envs/Secrets
+.env
+.env.*
+*.env
+
+# IDE/Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Migrations:
+# WICHTIG: Migrations werden COMMITTET (nicht ignorieren)!
